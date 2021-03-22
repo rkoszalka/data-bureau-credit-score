@@ -1,13 +1,13 @@
-package org.koszalka.ml.bureau;
+package org.koszalka.score.bureau;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BureauApplication {
+public class CreditScoreApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BureauApplication.class, args);
+		SpringApplication.run(CreditScoreApplication.class, args);
 	}
 
 }
