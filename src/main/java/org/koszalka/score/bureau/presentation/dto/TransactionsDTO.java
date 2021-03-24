@@ -16,6 +16,6 @@ public class TransactionsDTO {
 
     public LocalDateTime lastBureauSearch;
     public List<FinancialTransactionDTO> financialTransactionsDTOList;
-    public org.koszalka.data.bureau.presentation.dto.CreditCardDataDTO creditCardDataDTO;
+    public CreditCardDataDTO creditCardDataDTO;
 
 }
