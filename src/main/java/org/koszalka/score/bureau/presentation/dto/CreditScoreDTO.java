@@ -15,7 +15,7 @@ public class CreditScoreDTO {
 
     public Integer age;
     public List<CPFPropertiesDTO> properties;
-    public org.koszalka.data.bureau.presentation.dto.AddressDTO address;
+    public AddressDTO address;
     public String incomingType;
 
 }
